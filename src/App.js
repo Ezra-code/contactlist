@@ -1,10 +1,11 @@
 import React from "react";
-import NavBar from "./compoents/Navbar";
-import Add from "./compoents/newcontact"
-import Favorite from "./compoents/favoritecontact";
-import Edit from "./compoents/editContact";
-import Contact from "./compoents/contactlist";
+import NavBar from "./components/Navbar";
+import Add from "./components/newcontact"
+import Favorite from "./components/favoritecontact";
+import Edit from "./components/editContact";
+import Contact from "./components/contactlist";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Details from "./components/details";
 
 function App() {
     return (
@@ -14,7 +15,8 @@ function App() {
                 <Route path="home" element={<Contact />}/>
                 <Route path="Add" element={<Add />}/>
                 <Route path="favorites" element={<Favorite />}/>
-                <Route path="edit" element={<Edit />}/>
+                <Route path="edit" element={<Edit />} />
+                <Route path="/home/details" element={<Details/>}/>
             </Routes>
         </BrowserRouter>
     )
