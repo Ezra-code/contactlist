@@ -12,9 +12,9 @@ function NavBar() {
                     <NavLink
                         to="home"
                         style={({ isActive }) => ({
-                        color: isActive ? '#fff' : '#545e6f',
+                            color: isActive ? '#fff' : '#545e6f',
                             background: isActive ? '#7600dc' : '#f0f0f0',
-                                                   })}
+                        })}
                     >
                         Home
                     </NavLink>

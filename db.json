@@ -1,11 +1,11 @@
 {
   "contact": [
     {
-      "name": "kamala harris",
-      "Number":"+1234554321",
+      "fname": "kamala",
+      "lname":"harris",
+      "number": 1234554321,
       "occupation":"vice president",
-      "residence":"khalif",
-      "image":".png"
+      "residence":"khalif"
 
     }
   ]

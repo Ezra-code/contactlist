@@ -1,7 +1,11 @@
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    display: inline;
+    min-height: 100vh;
 }
 nav{
     display: flex;
@@ -24,4 +28,5 @@ li>a{
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    border-radius: 8px;
 }
