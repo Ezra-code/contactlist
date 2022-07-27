@@ -9,10 +9,15 @@ function NewContact() {
     const [home, setHome] = useState("")
     const [linkedin, setlLinkedIn] = useState("")
     const [github, setGithub] = useState("")
-
+    const [pic, setPic] = useState(null)
     function HandleLastNameChange(e) {
         setLastName(e.target.value)
-            }
+    }
+    
+    function FileSelectedHandler(e) {
+        console.log(e.target.files[0])
+        setPic(e.target.files[0])
+    }
 
        function HandlefirstNameChange(e) {
         setFirstName(e.target.value)
@@ -56,7 +61,8 @@ function NewContact() {
             home: home,
             work: work,
             linkedIn: linkedin,
-            gitHub: github
+            gitHub: github,
+            image: pic
         }
 
         console.log(formData)
@@ -87,7 +93,7 @@ function NewContact() {
     return (
         <div>
             <form onSubmit={HandleSubmit} className="mb-3">
-                <input type="file"/>
+                <input type="file" require=".png, .jpg, .jpeg" onChange={FileSelectedHandler}/>
                 <div className="name">
                     <div className="left">
                         <label htmlFor="name" className="form-label">First Name:</label> <br/>
