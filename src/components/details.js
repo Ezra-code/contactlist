@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 function Details() {
     const [contact, setContact] = useState("")
     const {id} = useParams()
@@ -17,7 +17,8 @@ function Details() {
                 <p className="card-text"><strong>phone</strong> {contact.number}</p>
                 <p className="card-text"><strong>Work:</strong> {contact.work}</p>
                 <p className="card-text"><strong>Home:</strong> {contact.home}</p>
-                <p>id entered is{ id}</p>
+                <Link to="www.linkedIn.com" className="btn btn-primary"><strong><i class="fa-brands fa-linkedin-in"></i></strong> {contact.linkedIn}</Link>
+                <Link to="www.github.com"  className="btn btn-primary"><strong><i class="fa-brands fa-github"></i></strong> {contact.gitHub}</Link>
             </div>
         </div>
     )
