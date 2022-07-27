@@ -8,12 +8,15 @@ function ContactList() {
             .then(r => r.json())
             .then(data => setContact(data))
     }, [])
-    // console.log(contact)
-
+    const dispContact = contact.map((item) => <Display contact={item} key={item.id }/> )
 
     return (
-       <Display contact={contact}/>
+        <div className="contact-list">
+            {dispContact}
+        </div>
+        
     )
+  
 }
 
 export default ContactList

@@ -1,7 +1,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 function Details() {
-        const [contact, setContact] = useState("")
+    const [contact, setContact] = useState("")
+    const {id} = useParams()
         useEffect(() => {
             fetch("http://localhost:4000/contact")
                 .then(r => r.json())
@@ -15,6 +17,7 @@ function Details() {
                 <p className="card-text"><strong>phone</strong> {contact.number}</p>
                 <p className="card-text"><strong>Work:</strong> {contact.work}</p>
                 <p className="card-text"><strong>Home:</strong> {contact.home}</p>
+                <p>id entered is{ id}</p>
             </div>
         </div>
     )
