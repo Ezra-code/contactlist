@@ -86,50 +86,50 @@ function NewContact() {
     //Jsx form data input
     return (
         <div>
-            <form onSubmit={HandleSubmit}>
+            <form onSubmit={HandleSubmit} className="mb-3">
                 <input type="file"/>
                 <div className="name">
                     <div className="left">
-                        <label htmlFor="name">First Name:</label> <br/>
-                        <input type="text" placeholder="Enter first name" value={firstName} onChange={HandlefirstNameChange} required/>
+                        <label htmlFor="name" className="form-label">First Name:</label> <br/>
+                        <input type="text" placeholder="Enter first name" className="form-control" value={firstName} onChange={HandlefirstNameChange} required/>
                     </div>
                     <div className="right">
-                        <label htmlFor="name">Last Name:</label> <br/>
-                        <input type="text" placeholder="Enter last name" value={lastName} onChange={HandleLastNameChange } required/>
+                        <label htmlFor="name" className="form-label">Last Name:</label> <br/>
+                        <input type="text" placeholder="Enter last name" className="form-control" value={lastName} onChange={HandleLastNameChange } required/>
                     </div>
                 </div>
                 
                 <div className="contact">
                     <div className="right">
-                        <label htmlFor="number">Enter Number</label> <br/>
-                        <input type="number" placeholder="Enter contact number" value={contact} onChange={HandleContactChange} required/>
+                        <label htmlFor="number" className="form-label">Enter Number</label> <br/>
+                        <input type="number" placeholder="Enter contact number" className="form-control" value={contact} onChange={HandleContactChange} required/>
                     </div>
                     <div className="left">
-                         <label htmlFor="email">Enter email</label> <br/>
-                        <input type="email" placeholder="Enter contact em..." value={email} onChange={HandleEmailChange } required/>
+                         <label htmlFor="email" className="form-label">Enter email</label> <br/>
+                        <input type="email" placeholder="Enter contact em..." className="form-control" value={email} onChange={HandleEmailChange } required/>
                     </div>
                 </div>
 
                 <div className="address">
                     <div className="right">
-                        <label htmlFor="occupation">Enter Occupation</label> <br/>
-                        <input type="text" placeholder="Enter contact occup..." value={work} onChange={HandleWorkChange } required/>
+                        <label htmlFor="occupation" className="form-label">Enter Occupation</label> <br/>
+                        <input type="text" placeholder="Enter contact occup..." className="form-control" value={work} onChange={HandleWorkChange } required/>
                     </div>         
                     <div className="left">
-                        <label htmlFor="residence">Enter Residence</label> <br/>
-                        <input type="text" placeholder="Enter place of res..." value={home} onChange={HandleHomeChange } required/>
+                        <label htmlFor="residence" className="form-label">Enter Residence</label> <br/>
+                        <input type="text" placeholder="Enter place of res..." className="form-control" value={home} onChange={HandleHomeChange } required/>
                    </div>
                 </div>
                 
                 <div className="socials">
                     <div className="right">
-                        <label htmlFor="linkedin">Enter linkedin</label> <br/>
-                        <input type="text" placeholder="linkedIn link" value={linkedin} onChange={HandleLinkedInChange } required/>
+                        <label htmlFor="linkedin" className="form-label">Enter linkedin</label> <br/>
+                        <input type="text" placeholder="linkedIn link" className="form-control" value={linkedin} onChange={HandleLinkedInChange } required/>
                     </div>
 
                     <div className="left">
-                        <label htmlFor="github">Enter github link</label> <br/>
-                        <input type="text" placeholder="Github link" value={github} onChange={HandleGithubChange } required/>
+                        <label htmlFor="github" className="form-label">Enter github link</label> <br/>
+                        <input type="text" placeholder="Github link" className="form-control" value={github} onChange={HandleGithubChange } required/>
                     </div>
                 </div>
                 

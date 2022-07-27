@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <nav>
+        <nav className="navbar navbar-dark bg-dark">
             <div className="title">
                 <h2>Contact</h2>
             </div>
@@ -13,7 +13,7 @@ function NavBar() {
                         to="/"
                         style={({ isActive }) => ({
                             color: isActive ? '#fff' : '#545e6f',
-                            background: isActive ? '#7600dc' : '#f0f0f0',
+                            background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
                         Home
@@ -24,7 +24,7 @@ function NavBar() {
                         to="Add"
                         style={({ isActive }) => ({
                             color: isActive ? '#fff' : '#545e6f',
-                            background: isActive ? '#7600dc' : '#f0f0f0',
+                            background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
                         Add
@@ -35,7 +35,7 @@ function NavBar() {
                         to="favorites"
                         style={({ isActive }) => ({
                             color: isActive ? '#fff' : '#545e6f',
-                            background: isActive ? '#7600dc' : '#f0f0f0',
+                            background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
                         Favorites
@@ -46,7 +46,7 @@ function NavBar() {
                         to="edit"
                         style={({ isActive }) => ({
                             color: isActive ? '#fff' : '#545e6f',
-                            background: isActive ? '#7600dc' : '#f0f0f0',
+                            background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
                         Edit
