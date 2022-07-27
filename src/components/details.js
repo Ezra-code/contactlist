@@ -15,8 +15,8 @@ function Details() {
             <img src="https://www.howtogeek.com/wp-content/uploads/2020/05/spilled-coffee-on-laptop-keyboard.jpg?height=200p&trim=2,2,2,2" className="img-top" alt="..."/>
             <div className="body">              
                 <p className="text"><strong>phone</strong> {contact.number}</p>
-                <p className="text"><strong>Work:</strong> {contact.work}</p>
-                <p className="text"><strong>Home:</strong> {contact.home}</p>
+                <p className="text"><strong>Occupation:</strong> {contact.work}</p>
+                <p className="text"><strong>Residence:</strong> {contact.home}</p>
                 <a  href="https://www.linkedIn.com" className="btn btn-primary"><strong><i class="fa-brands fa-linkedin-in"></i></strong> </a>
                 <a  href="https://www.github.com" className="btn btn-primary"><strong><i class="fa-brands fa-github"></i></strong></a>
             </div>

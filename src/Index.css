@@ -5,7 +5,8 @@
 }
 body{
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url("https://brookesblogs.net/wp-content/uploads/2022/03/contactus.jpg");
+    object-fit: cover;
 }
 nav{
     display: flex;
@@ -15,7 +16,7 @@ nav{
     padding: 15px;
 }
 .title{
-    color: white;
+    color: lightskyblue
 }
 ul{
     display: flex;
@@ -80,20 +81,16 @@ input[type=submit]{
 }
 .deets{
     border: 2px solid;
-    margin: 5%;
+    max-width: 700px;
+    margin-left: 30%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 .img-top{
-    width: 400px;
-    height: 400px;
-    padding: 12px;
-    object-fit: contain;
-}
-.text{
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 10px;
-    
+    width: 55%;
+    height: 20%;
 }

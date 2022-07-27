@@ -32,6 +32,17 @@
       "linkedIn": "linked",
       "gitHub": "none",
       "id": 3
+    },
+    {
+      "fname": "Ezra",
+      "lname": "Njeru",
+      "number": "0773456789",
+      "email": "njeruezra@gmail.com",
+      "home": "kenya",
+      "work": "student",
+      "linkedIn": "ezra/linkedin",
+      "gitHub": "ezra/github",
+      "id": 4
     }
   ]
 }
