@@ -1,12 +1,37 @@
 {
   "contact": [
     {
+      "id": 1,
       "fname": "kamala",
-      "lname":"harris",
-      "number": 1234554321,
-      "occupation":"vice president",
-      "residence":"khalif"
-
+      "lname": "harris",
+      "email": "riski@gmail.com",
+      "gitHub": ".github",
+      "home": "M Street",
+      "linkedIn": "riski/in",
+      "number": "4567892",
+      "work": "meat vendor"
+    },
+    {
+      "fname": "nunu",
+      "lname": "huhu",
+      "number": "123456",
+      "email": "tyuthere@gmail.com",
+      "home": "reside",
+      "work": "work",
+      "linkedIn": "nin",
+      "gitHub": "git",
+      "id": 2
+    },
+    {
+      "fname": "e3derrd",
+      "lname": "deed",
+      "number": "324567",
+      "email": "walter@gmail.com",
+      "home": "dandollar",
+      "work": "teach",
+      "linkedIn": "linked",
+      "gitHub": "none",
+      "id": 3
     }
   ]
 }

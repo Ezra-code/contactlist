@@ -10,7 +10,7 @@ function NavBar() {
             <ul>
                 <li>
                     <NavLink
-                        to="home"
+                        to="/"
                         style={({ isActive }) => ({
                             color: isActive ? '#fff' : '#545e6f',
                             background: isActive ? '#7600dc' : '#f0f0f0',

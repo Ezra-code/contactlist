@@ -13,8 +13,8 @@ function Details() {
             <div className="card-body">
                 <h5 className="card-title"><strong>Name:</strong> {contact.fname} {contact.lname}</h5>
                 <p className="card-text"><strong>phone</strong> {contact.number}</p>
-                <p className="card-text"><strong>Work:</strong> {contact.occupation}</p>
-                <p className="card-text"><strong>Home:</strong> {contact.residence}</p>
+                <p className="card-text"><strong>Work:</strong> {contact.work}</p>
+                <p className="card-text"><strong>Home:</strong> {contact.home}</p>
             </div>
         </div>
     )
