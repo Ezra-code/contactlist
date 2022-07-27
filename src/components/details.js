@@ -5,12 +5,12 @@ function Details() {
     const [contact, setContact] = useState("")
     const {id} = useParams()
         useEffect(() => {
-            fetch("http://localhost:4000/contact")
+            fetch(`http://localhost:4000/contact/${ id }`)
                 .then(r => r.json())
-                .then(data => data.map((contact) => setContact(contact)))
-        }, [])
+                .then(data => setContact(data))
+        }, [id])
     return (
-          <div className="card" style={{ width: 18 + "rem" }} key={contact.id}>
+          <div className="card" style={{ width: 18 + "rem" }}>
             <img src="https://www.howtogeek.com/wp-content/uploads/2020/05/spilled-coffee-on-laptop-keyboard.jpg?height=200p&trim=2,2,2,2" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title"><strong>Name:</strong> {contact.fname} {contact.lname}</h5>
