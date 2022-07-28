@@ -34,26 +34,23 @@
       "id": 4
     },
     {
-      "fname": "ezra",
-      "lname": "new",
-      "number": "23456789",
-      "email": "njeru@123gmail.com",
-      "home": "kayoleleshwa",
-      "work": "worker",
-      "linkedIn": "link",
-      "gitHub": "git",
+      "fname": "Paul",
+      "lname": "John",
+      "gitHub": "http://www.facebook.com/100000330275490",
+      "linkedin": "http://www.linkedin.com/in/paulstjohn",
+      "home": "San Francisco Bay Area",
       "id": 5
     },
     {
-      "fname": "elieze",
-      "lname": "mwai",
-      "number": "5555555",
-      "email": "ezra.njeru@student.moringaschool.com",
-      "home": "kayole",
-      "work": "woerkk",
-      "linkedIn": "tttt",
+      "fname": "justus",
+      "lname": "kinyua",
+      "number": "909876",
+      "email": "justo@kinyu.com",
+      "home": "meru",
+      "work": "farmer",
+      "linkedIn": "none",
       "gitHub": "none",
-      "id": 8
+      "id": 6
     }
   ]
 }

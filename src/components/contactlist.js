@@ -7,7 +7,7 @@ function ContactList() {
         fetch("http://localhost:4000/contact")
             .then(r => r.json())
             .then(data => setContact(data))
-    }, [])
+    }, [contact])
 
     const dispContact = contact.map((item) => <Display contact={item} key={item.id}  /> )
 
