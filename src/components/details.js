@@ -10,11 +10,10 @@ function Details() {
                 .then(data => setContact(data))
         }, [id])
     
-    // const fname = contact.fname
-    // console.log(fname[0])
     return (
         <div className="deets">
             <h1><strong>Name:</strong> {contact.fname} {contact.lname}</h1>
+            <img src="https://icon-library.com/images/login-icon/login-icon-7.jpg" className="img-top" alt="..."/>
             <div className="body">              
                 <p className="text"><strong>phone</strong> {contact.number}</p>
                 <p className="text"><strong>Occupation:</strong> {contact.work}</p>
@@ -22,7 +21,9 @@ function Details() {
                 <a  href="https://www.linkedIn.com" className="btn btn-primary"><strong><i className="fa-brands fa-linkedin-in"></i></strong> </a>
                 <a href="https://www.github.com" className="btn btn-primary"><strong><i className="fa-brands fa-github"></i></strong></a>
                 
-                <Link to={`edit/${contact.id}`} className="btn btn-success"> Edit</Link>
+                <div>
+                    <Link to={`edit/${contact.id}`} className="btn btn-success"> Edit</Link>
+                </div>
 
             </div>
         </div>

@@ -99,6 +99,9 @@ input[type=submit]{
 }
 .btn-success{
     margin: 5px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
 }
 .edit-form{
     display: flex;
@@ -108,4 +111,7 @@ input[type=submit]{
 .edit-form>input{
     margin: 7px;
     width: 75%;
+}
+.btn-danger{
+    float: right;
 }

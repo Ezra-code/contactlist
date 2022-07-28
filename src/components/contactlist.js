@@ -8,7 +8,8 @@ function ContactList() {
             .then(r => r.json())
             .then(data => setContact(data))
     }, [])
-    const dispContact = contact.map((item) => <Display contact={item} key={item.id }/> )
+
+    const dispContact = contact.map((item) => <Display contact={item} key={item.id}  /> )
 
     return (
         <div className="contact-list">
