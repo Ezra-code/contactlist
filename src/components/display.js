@@ -9,6 +9,7 @@ function Display({ contact }) {
                 <h5 className="card-title">{contact.fname} {contact.lname}</h5>
                 <p className="card-text">{contact.home }</p>
                 <Link to={`details/${contact.id}`} className="btn btn-primary">Full details</Link>
+                <Link to="edit" className="btn btn-success"> Edit</Link>
             </div>
         </div>
     )

@@ -9,8 +9,7 @@
       "home": "M Street",
       "linkedIn": "riski/in",
       "number": "4567892",
-      "work": "meat vendor",
-      "image": "image_url"
+      "work": "meat vendor"
     },
     {
       "fname": "nunu",
@@ -21,7 +20,6 @@
       "work": "work",
       "linkedIn": "nin",
       "gitHub": "git",
-      "image": "image_url",
       "id": 2
     },
     {
@@ -33,7 +31,6 @@
       "work": "teach",
       "linkedIn": "linked",
       "gitHub": "none",
-      "image": "image_url",
       "id": 3
     },
     {
@@ -45,7 +42,6 @@
       "work": "student",
       "linkedIn": "ezra/linkedin",
       "gitHub": "ezra/github",
-      "image": "image_url",
       "id": 4
     },
     {
@@ -57,7 +53,6 @@
       "work": "worker",
       "linkedIn": "link",
       "gitHub": "git",
-      "image": {},
       "id": 5
     }
   ]

@@ -41,17 +41,6 @@ function NavBar() {
                         Favorites
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink
-                        to="edit"
-                        style={({ isActive }) => ({
-                            color: isActive ? '#fff' : '#545e6f',
-                            background: isActive ? 'blue' : '#f0f0f0',
-                        })}
-                    >
-                        Edit
-                    </NavLink>
-                </li>
             </ul>
         </nav>
     )

@@ -94,3 +94,6 @@ input[type=submit]{
     width: 55%;
     height: 20%;
 }
+.btn-success{
+    margin: 5px;
+}

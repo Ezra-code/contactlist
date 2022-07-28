@@ -11,8 +11,7 @@ function Details() {
         }, [id])
     return (
         <div className="deets">
-              <h1><strong>Name:</strong> {contact.fname} {contact.lname}</h1>
-            <img src={contact.image} className="img-top" alt="..."/>
+            <h1><strong>Name:</strong> {contact.fname} {contact.lname}</h1>
             <div className="body">              
                 <p className="text"><strong>phone</strong> {contact.number}</p>
                 <p className="text"><strong>Occupation:</strong> {contact.work}</p>
