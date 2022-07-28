@@ -27,6 +27,7 @@ function NavBar() {
                             background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
+                        <i className="fa-solid fa-user-plus"></i>
                         Add
                     </NavLink>
                 </li>

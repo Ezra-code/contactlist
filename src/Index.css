@@ -39,7 +39,9 @@ li>a{
     margin: 20px;
     box-shadow: 5px 5px 5px 3px;
 }
-
+.card-img-top{
+    background-color: white;
+}
 form{
     background-color: rgba(192, 192, 192, 0.4);
     margin: 10%;
@@ -72,6 +74,7 @@ input[type=submit]{
 }
 .contact-list{
     display: flex;
+    flex-wrap: wrap;
     margin: 10%;
     justify-content: space-around;
 }

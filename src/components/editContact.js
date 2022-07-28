@@ -18,15 +18,15 @@ function Edit() {
             
             <form className="edit-form">
                 <h1>EDIT CONTACT</h1>
-                <input type="text" value={contact.id} disabled/>
-                <input type="text" value={contact.fname} onChange={handleChange } />
-                <input type="text" value={contact.lname}/>
-                <input type="number" value={contact.number}/>
-                <input type="email" value={contact.email}/>
-                <input type="text" value={contact.home}/>
-                <input type="text" value={contact.work}/>
-                <input type="text" value={contact.linkedIn}/>
-                <input type="text" value={contact.gitHub}/>
+                <input type="text"  disabled/>
+                <input type="text"  onChange={handleChange } />
+                <input type="text" onChange={handleChange }/>
+                <input type="number" onChange={handleChange }/>
+                <input type="email" onChange={handleChange }/>
+                <input type="text" onChange={handleChange }/>
+                <input type="text" onChange={handleChange }/>
+                <input type="text" onChange={handleChange }/>
+                <input type="text" onChange={handleChange }/>
             </form>
        </div>
     )
