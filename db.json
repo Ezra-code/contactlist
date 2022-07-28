@@ -54,6 +54,14 @@
       "linkedIn": "link",
       "gitHub": "git",
       "id": 5
+    },
+    {
+      "gitHub": "none",
+      "id": 6
+    },
+    {
+      "email": "ezstudent@moringaschool.com",
+      "id": 7
     }
   ]
 }
