@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/Navbar";
 import Add from "./components/newcontact"
-import Favorite from "./components/favoritecontact";
+import About from "./components/About";
 import Edit from "./components/editContact";
 import Feedback from "./components/feedback";
 import Contact from "./components/contactlist";
@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Contact />}/>
                 <Route path="Add" element={<Add />}/>
-                <Route path="favorites" element={<Favorite />}/>
+                <Route path="favorites" element={<About />}/>
                 <Route path="/details/:id/edit/:id" element={<Edit />} />
                 <Route path="/details/:id" element={<Details/>}/>
                 <Route path="feedback" element={<Feedback />}/>
