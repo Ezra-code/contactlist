@@ -4,7 +4,7 @@ import Display from "./display";
 function ContactList() {
     const [contact, setContact] = useState([])
     useEffect(() => {
-        fetch("http://localhost:4000/contact")
+        fetch("https://tourmaline-boiled-damselfly.glitch.me/contact")
             .then(r => r.json())
             .then(data => setContact(data))
     }, [contact])

@@ -35,7 +35,7 @@ function NewContact() {
 
         console.log(formData)
 
-        fetch("http://localhost:4000/contact", {
+        fetch("https://tourmaline-boiled-damselfly.glitch.me/contact", {
             method: "POST",
             headers: {
                 "Content-Type":"application/json"

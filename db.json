@@ -1,17 +1,6 @@
 {
   "contact": [
     {
-      "id": 1,
-      "fname": "kamala",
-      "lname": "harris",
-      "email": "riski@gmail.com",
-      "gitHub": ".github",
-      "home": "M Street",
-      "linkedIn": "riski/in",
-      "number": "4567892",
-      "work": "meat vendor"
-    },
-    {
       "fname": "walter",
       "lname": "deed",
       "number": "324567",
@@ -21,27 +10,6 @@
       "linkedIn": "linked",
       "gitHub": "none",
       "id": 3
-    },
-    {
-      "fname": "Ezra",
-      "lname": "Njeru",
-      "number": "0773456789",
-      "email": "njeruezra@gmail.com",
-      "home": "kenya",
-      "work": "student",
-      "linkedIn": "ezra/linkedin",
-      "gitHub": "ezra/github",
-      "id": 4
-    },
-    {
-      "fname": "Paul",
-      "lname": "John",
-      "number": 90900876,
-      "work":"fruit vendor",
-      "gitHub": "http://www.facebook.com/100000330275490",
-      "linkedin": "http://www.linkedin.com/in/paulstjohn",
-      "home": "San Francisco Bay Area",
-      "id": 5
     },
     {
       "fname": "justus",
@@ -55,15 +23,48 @@
       "id": 6
     },
     {
-      "fname": "justus",
-      "lname": "kinyua",
-      "number": "909876",
-      "email": "justo@kinyu.com",
-      "home": "meru",
-      "work": "farmer",
+      "fname": "Ramsay's",
+      "lname": "Ego",
+      "number": "011112223",
+      "email": "pharao@gmail.com",
+      "home": "Egypt",
+      "work": "pharaoh",
       "linkedIn": "none",
       "gitHub": "none",
-      "id": 7
+      "id": 8
+    },
+    {
+      "fname": "Air",
+      "lname": " Bender",
+      "number": "7877765433",
+      "email": "bender@365.com",
+      "home": "Southern Air Temple ",
+      "work": "airbending",
+      "linkedIn": "none",
+      "gitHub": "none",
+      "id": 9
+    },
+    {
+      "fname": "Bald ",
+      "lname": "Guy",
+      "number": "67543234",
+      "email": "baldg@yahoo.com",
+      "home": "baldadesh",
+      "work": "head light proffessional",
+      "linkedIn": "none",
+      "gitHub": "none",
+      "id": 10
+    },
+    {
+      "fname": "Armin ",
+      "lname": "Arlelt",
+      "number": "07777777",
+      "email": "dobleA@gmail.com",
+      "home": " Wall Rose",
+      "work": " Soldier",
+      "linkedIn": "none",
+      "gitHub": "none",
+      "id": 11
     }
   ]
 }

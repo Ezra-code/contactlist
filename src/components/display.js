@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Display({ contact}) {
 
     function HandleDelete() {
-    fetch(`http://localhost:4000/contact/${ contact.id }`,{
+    fetch(`https://tourmaline-boiled-damselfly.glitch.me/contact/${ contact.id }`,{
       method:"DELETE"
     })
         .then(r => r.json())
