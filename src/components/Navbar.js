@@ -39,7 +39,18 @@ function NavBar() {
                             background: isActive ? 'blue' : '#f0f0f0',
                         })}
                     >
-                        Favorites
+                        About
+                    </NavLink>
+                </li>
+                 <li>
+                    <NavLink
+                        to="feedback"
+                        style={({ isActive }) => ({
+                            color: isActive ? '#fff' : '#545e6f',
+                            background: isActive ? 'blue' : '#f0f0f0',
+                        })}
+                    >
+                        feedback
                     </NavLink>
                 </li>
             </ul>

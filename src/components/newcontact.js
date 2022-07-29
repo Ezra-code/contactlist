@@ -42,6 +42,8 @@ function NewContact() {
             },
             body: JSON.stringify(formData)
         })
+            .then(r => r.json)
+        .then(data => data)
     }
 
     //Jsx form data input
