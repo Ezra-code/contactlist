@@ -12,12 +12,12 @@
       "work": "meat vendor"
     },
     {
-      "fname": "e3derrd",
+      "fname": "walter",
       "lname": "deed",
       "number": "324567",
       "email": "walter@gmail.com",
       "home": "dandollar",
-      "work": "teach",
+      "work": "teacher",
       "linkedIn": "linked",
       "gitHub": "none",
       "id": 3
@@ -36,6 +36,8 @@
     {
       "fname": "Paul",
       "lname": "John",
+      "number": 90900876,
+      "work":"fruit vendor",
       "gitHub": "http://www.facebook.com/100000330275490",
       "linkedin": "http://www.linkedin.com/in/paulstjohn",
       "home": "San Francisco Bay Area",
@@ -51,6 +53,17 @@
       "linkedIn": "none",
       "gitHub": "none",
       "id": 6
+    },
+    {
+      "fname": "justus",
+      "lname": "kinyua",
+      "number": "909876",
+      "email": "justo@kinyu.com",
+      "home": "meru",
+      "work": "farmer",
+      "linkedIn": "none",
+      "gitHub": "none",
+      "id": 7
     }
   ]
 }

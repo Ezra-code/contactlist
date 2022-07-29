@@ -21,7 +21,7 @@ function NewContact() {
     
     //handle submission of form
     function HandleSubmit(e) {
-        e.preventDefault()
+        // e.preventDefault()
         const formData = {
             fname: formDta.firstName,
             lname: formDta.lastName,
