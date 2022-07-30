@@ -10,7 +10,7 @@ function Edit() {
         fetch(`http://localhost:4000/contact/${id}`)
         .then(r => r.json())
     .then(data => setContact(data))
-    }, [id])
+    }, [id, setContact])
        const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -20,7 +20,8 @@ function Edit() {
         Home: "",
         linkedin: "",
         github: "",
-    })
+       })
+    setFormData(contact)
     function handleChange(e) {
         console.log(e.target.value)
     }
