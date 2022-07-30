@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.about{
+    background-color: black;
+    margin: 12%;
+    display: flex;
+    
+
+}
+.sideimg{
+    width: 50%;
+    margin-right: 29px;
+    border-radius: 0% 50% 50% 0%;
+    
+}
+.right{
+    width: 50%;
+    padding: 10%;
+    margin-top: 20px;
+}
+.right > h2{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.right>p{
+    color: white;
+    font-weight: bolder;
+}

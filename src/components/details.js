@@ -5,7 +5,7 @@ function Details() {
     const [contact, setContact] = useState("")
     const {id} = useParams()
         useEffect(() => {
-            fetch(`https://tourmaline-boiled-damselfly.glitch.me/contact/${ id }`)
+            fetch(`https://living-bolder-agustinia.glitch.me/contact/${ id }`)
                 .then(r => r.json())
                 .then(data => setContact(data))
         }, [id])

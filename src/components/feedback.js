@@ -3,7 +3,7 @@ import './feedback.css'
 function feedback() {
     return (
         <div class="container">
-            <form >
+            <form className="feedback">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
 

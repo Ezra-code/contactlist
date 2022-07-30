@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
-function NewContact() {
+
+const url = "https://living-bolder-agustinia.glitch.me/contact"
+function NewContact( {postContact}) {
+
     const [formDta, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -35,7 +38,7 @@ function NewContact() {
 
         console.log(formData)
 
-        fetch("https://tourmaline-boiled-damselfly.glitch.me/contact", {
+        fetch(url, {
             method: "POST",
             headers: {
                 "Content-Type":"application/json"
@@ -43,7 +46,7 @@ function NewContact() {
             body: JSON.stringify(formData)
         })
             .then(r => r.json)
-        .then(data => data)
+        .then(data => postContact(data))
     }
 
     //Jsx form data input
