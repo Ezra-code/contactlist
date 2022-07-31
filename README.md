@@ -1,7 +1,7 @@
 # ONLINE CONTACT
  ## By Ezra Njeru
 ## Screenshot
- ![image](./assets/images/snapshot.png)
+ ![image](./snapshot.png)
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
